@@ -55,7 +55,7 @@ class _FinancialWellnessTestFormCardState
       >(
         listener: (context, state) {
           if (state is FinancialWellnessScoreResultState) {
-            context.push(
+            context.go(
               AppRoutePaths.financialWellnessResultPath,
               extra: state.score,
             );
@@ -91,6 +91,7 @@ class _FinancialWellnessTestFormCardState
                         context.l10n.financialWellnessTestDescription,
                         textAlign: TextAlign.center,
                         style: KalshiTextStyles.paragraph,
+                        color: KalshiColors.contentFour,
                       ),
                     ],
                   ),

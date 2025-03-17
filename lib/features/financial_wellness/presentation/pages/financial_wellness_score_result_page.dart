@@ -27,6 +27,7 @@ class _FinancialWellnessScoreResultPageState
         backgroundColor: KalshiColors.surfacePure,
         title: Image.asset(KalshiImages.logoName),
         centerTitle: true,
+        automaticallyImplyLeading: false,
       ),
       body: Padding(
         padding: EdgeInsets.all(KalshiSpacing.md),
