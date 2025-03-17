@@ -55,7 +55,7 @@ class _FinancialWellnessTestFormCardState
       >(
         listener: (context, state) {
           if (state is FinancialWellnessScoreResultState) {
-            context.go(
+            context.push(
               AppRoutePaths.financialWellnessResultPath,
               extra: state.score,
             );
