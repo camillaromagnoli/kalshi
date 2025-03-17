@@ -4,6 +4,8 @@ Kalshi is a regulated exchange & prediction market where you can trade on the ou
 
 In order to do that, users should register information regarding their financial situation in our app. Two key pieces of information are his annual gross income and average monthly costs.
 
+## Demo
+![Demo](kalshi_gif.gif)
 ## Architecture
 
 ### Clean Architecture
